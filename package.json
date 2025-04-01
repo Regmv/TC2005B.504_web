@@ -1,14 +1,24 @@
 {
   "name": "c-htmlycss",
-  "type":"module",
+  "type": "module",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "repository": {
+    "type": "git",
+    "url": "git+https://TOKEN@github.com/Regmv/TC2005B.504_web.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Regmv/TC2005B.504_web/issues"
+  },
+  "homepage": "https://github.com/Regmv/TC2005B.504_web#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
 }
-
