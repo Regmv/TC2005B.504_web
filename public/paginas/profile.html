@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="../estilos/estilos1.css">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .logo {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            width: 120px;
+        }
+
+        .centrado {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            padding: 40px;
+        }
+
+        .contenido-box {
+            background-color: #f9f9f9;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            width: 80%;
+            max-width: 600px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+        }
+
+        nav ul {
+            list-style-type: disc;
+            padding-left: 40px;
+        }
+
+        nav ul li {
+            margin-bottom: 8px;
+        }
+
+        nav ul li a {
+            text-decoration: underline;
+            color: hotpink;
+            font-size: 16px;
+        }
+
+        .search-bar {
+            margin-right: 150px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="../index.html">Login</a></li>
+            <li><a href="./tags.html">Home</a></li>
+            <li><a href="#">Profile</a></li>
+        </ul>
+
+        <div class="search-bar">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <img src="../images/logotecmini.png" alt="Logo del Tec" class="logo">
+
+    <div class="centrado">
+        <div class="contenido-box">
+            <h2 id="profile_id">Perfil</h2>
+            <h2>Información Personal</h2>
+            <p><strong>Nombre:</strong> Regina Martinez</p>
+            <p><strong>Cuenta de github:</strong> Regmv</p>
+            <p><strong>Correo:</strong> a01385455@tec.mx</p>
+            <img src="../images/lugartec.jpg" alt="Foto de perfil" width="150">
+        </div>
+    </div>
+
+</body>
+</html>
